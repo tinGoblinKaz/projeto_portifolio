@@ -1,0 +1,85 @@
+/* 
+=========================
+CONFIGURAÇÕES BÁSICAS
+=========================
+*/
+body{
+    font-family: "Fira Sans", Arial, sans-serif;
+    margin: 0px;
+    color: #141414;
+}
+h1,h2,h3,p{
+    margin: 0px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+li{
+    list-style: none;
+}
+/* 
+=========================
+CABEÇALHO (HEADER)
+=========================
+*/
+.header{
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.header-menu a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #141414;
+    display: block;      
+}
+/* 
+=========================
+SEÇÃO DE INTRODUÇÃO
+=========================
+*/
+.introducao{
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    align-items: center;
+}
+.introducao h1{
+    font-size: 72px;
+    margin-bottom: 30px;
+    
+}
+.introducao p {
+    font-size: 24px;
+    color: #525252;
+}
+.dados{
+    padding-left:10px ;
+}
+/* 
+=========================
+SEÇÃO DE EXPERIÊNCIA
+=========================
+*/
+.experiencia{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+}
