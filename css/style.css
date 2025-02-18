@@ -83,3 +83,6 @@ SEÇÃO DE EXPERIÊNCIA
     grid-template-columns: 1fr 2fr;
     gap: 100px;
 }
+.subtitulo{
+    font-size: 144px;
+}
